@@ -1,11 +1,4 @@
 //存储所有主数据的json
-var aboretumSrc = "./images/aboretum/" //植物园图片
-var antiquity = "./images/antiquity/" //古风图片
-var love = "./images/love/" //喜欢的图片
-var scenery = "./images/scenery/" //风景图片
-import aboretum0001 from `${{aboretumSrc}} + 'aboretum0001' + '.jpg'`;
-
-import follow_me from "./images/home/follow_me.jpg"
 import userAvatar from "./images/home/userAvatar.jpg"
 var baseData =
     // 为了简化数据结构，一个用户是一个对象，存储用户的所有数据
@@ -50,7 +43,56 @@ var baseData =
                             imageSrc: "./static/images/aboretum/",
                             router: "/photoDetails",
                             data: [
-                                aboretum0001,
+                                "aboretum0001",
+                                "aboretum0002",
+                                "aboretum0003",
+                                "aboretum0004",
+                                "aboretum0005",
+                                "aboretum0006",
+                                "aboretum0007",
+                                "aboretum0008",
+                                "aboretum0009",
+                                "aboretum0010",
+                                "aboretum0011",
+                                "aboretum0012",
+                                "aboretum0013",
+                                "aboretum0014",
+                                "aboretum0015",
+                                "aboretum0016",
+                                "aboretum0017",
+                                "aboretum0018",
+                                "aboretum0019",
+                                "aboretum0020",
+                                "aboretum0021",
+                                "aboretum0022",
+                                "aboretum0023",
+                                "aboretum0024",
+                                "aboretum0025",
+                                "aboretum0026",
+                                "aboretum0027",
+                                "aboretum0028",
+                                "aboretum0029",
+                                "aboretum0030",
+                                "aboretum0031",
+                                "aboretum0032",
+                                "aboretum0033",
+                                "aboretum0034",
+                                "aboretum0035",
+                                "aboretum0036",
+                                "aboretum0037",
+                                "aboretum0038",
+                                "aboretum0039",
+                                "aboretum0040",
+                                "aboretum0041",
+                                "aboretum0042",
+                                "aboretum0043",
+                                "aboretum0044",
+                                "aboretum0045",
+                                "aboretum0046",
+                                "aboretum0047",
+                                "aboretum0048",
+                                "aboretum0049",
+                                "aboretum0050",
                             ],
                         }, ],
                     },
@@ -191,7 +233,7 @@ var baseData =
             modulePermission: false,
             data: [{
                 id: 1,
-                src: follow_me,
+                src: "./static/images/home/follow_me.jpg",
             }],
         },
         articleData: [{
