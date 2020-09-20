@@ -40,7 +40,7 @@ var baseData =
                             desc: "亲近大自然，走进自然风光",
                             photoId: "",
                             backgroundImageName: "aboretum0007",
-                            imageSrc: "../..../../static/images/aboretum/",
+                            imageSrc: "/static/images/aboretum/",
                             router: "/photoDetails",
                             data: [
                                 "aboretum0001",
@@ -107,7 +107,7 @@ var baseData =
                             desc: "是不是很漂亮，最丑的是我",
                             photoId: "",
                             backgroundImageName: "antiquity0013",
-                            imageSrc: "../../static/images/antiquity/",
+                            imageSrc: "/static/images/antiquity/",
                             router: "/photoDetails",
                             data: [
                                 "antiquity0001",
@@ -134,7 +134,7 @@ var baseData =
                             desc: "愿你永远18岁",
                             photoId: "",
                             backgroundImageName: "love0005",
-                            imageSrc: "../../static/images/love/",
+                            imageSrc: "/static/images/love/",
                             router: "/photoDetails",
                             data: [
                                 "love0001",
@@ -161,7 +161,7 @@ var baseData =
                             desc: "随手拍一些景物留作纪念",
                             photoId: "",
                             backgroundImageName: "scenery0016",
-                            imageSrc: "../../static/images/scenery/",
+                            imageSrc: "/static/images/scenery/",
                             router: "/photoDetails",
                             data: [
                                 "scenery0001",
@@ -233,7 +233,7 @@ var baseData =
             modulePermission: false,
             data: [{
                 id: 1,
-                src: "../../static/images/home/follow_me.jpg",
+                src: "/static/images/home/follow_me.jpg",
             }],
         },
         articleData: [{
