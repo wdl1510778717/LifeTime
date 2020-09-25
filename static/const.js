@@ -241,7 +241,7 @@ var baseData =
     articleData: [{
         articleId: 1,
         articleTitle: "我推荐的书",
-        src: "http://www.yangqq.com/d/file/blogs/2018-06-18/0daedba8782d1b87dd38d9914d9cee3f.png",
+        src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
         isTop: true,
         subTitle: "推荐的书有些实在网上看到或者在知乎上看到的",
         details: `
@@ -300,8 +300,8 @@ var baseData =
     {
         articleId: 3,
         articleTitle: "在文字里开出有趣的灵魂",
-        src: "http://www.yangqq.com/d/file/news/life/2014-05-29/37b2762ee25cd73e39019c57eb6c6135.jpg",
-        isTop: false,
+        src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
+        isTop: true,
         subTitle: "文字也许是她吧",
         details: `
         <p class='paragraph'>人生清时有味，欢时有惜，倦时有依，唯文字可承载。</p>
@@ -318,70 +318,6 @@ var baseData =
         <p class='paragraph'>与文字相伴的日子，绵密而妥帖，不被惊扰，恣意地享受着字中有诗，诗中有画的日子。在最适合自己的光阴里，不厌倦、不烦忧、不恼怒、不狂喜、不计较，只安然于那寂静的节奏。入我心者皆明月，入我诗者皆清风。生活与文字都是修行，用文字勾勒出宁静致远，让心更纯净更透明，爱我所爱。</p>
         <p class='paragraph'>一篇玲珑曼妙的文章，往往带给人一生无穷尽遐想，精神上也获得一笔不可估量的财富。真心善待文字的人，文字也让我们享受到一份不一样的人生境界。用平淡真挚的文字守候着内心这片深邃的海，人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人。今生遇见文字，便是时光与银发的相依。雅人深致，让别样的文字绽放出别样的烟火；让别样的文字见证别样的灵魂；让别样的文字与别样的光芒同频，在生命的肌理上，留下了一行特殊的印记，让岁月感知……</p>
         `,
-    },
-    {
-        articleId: 4,
-        articleTitle: "抄袭门过后——丢掉心结，重拾自己",
-        src: "http://www.yangqq.com/d/file/news/life/2014-05-29/37b2762ee25cd73e39019c57eb6c6135.jpg",
-        isTop: false,
-        subTitle: "说到抄袭，初中就发生了那么一件尴尬的事。我的作文在班上老师和同学一直都认为还不错，经常被拿到班上甚至其他班当范文。以《 微笑》为标题作文，两天时间我就是想不出微笑",
-        details: ``,
-    },
-    {
-        articleId: 5,
-        articleTitle: "个人博客从简不繁",
-        src: "https://www.yangqq.com/d/file/news/life/2018-11-11/706322d7b93c7a5fbb8ec43001aa32d7.jpg",
-        isTop: false,
-        subTitle: "十一月中旬开始，排名突然下降了，网站“个人博客”关键词排名从第一页第二名滑落到100页以后了，个人博客这个关键词百度已经搜不到了，仅有google、搜狗、360排",
-        details: ``,
-    },
-    {
-        articleId: 6,
-        articleTitle: "犯错了怎么办？",
-        src: "http://www.yangqq.com/d/file/news/s/2014-04-09/0b5fad3a513ad04e92764533b772070c.jpg",
-        isTop: false,
-        subTitle: "引子：看到昔日好友发了一篇日志《咎由自取》他说他是一个悲观者，感觉社会抛弃了他，脾气、性格在6年的时间里变化很大，很难适应这个社会。人生其实就是不断犯错的过程，在",
-        details: ``,
-    },
-    {
-        articleId: 7,
-        articleTitle: "作为一个设计师,如果遭到质疑你是否能恪守自己的原则?",
-        src: "http://www.yangqq.com/d/file/news/life/2018-03-13/49962501843114c70121ad142e60a056.jpg",
-        isTop: false,
-        subTitle: "曾经有站长找我求助，他说他不知道该怎么办，自己做出来的网站，不仅没有得到大家的认可，反而让大家给他开了一个评判大会。他自己认为已经是做的最好的，却遭受大家无情的",
-        details: ``,
-    },
-    {
-        articleId: 8,
-        articleTitle: "《野蚂蚁》卜野 原创个人博客-撰写互联网人的工作与生活",
-        src: "http://www.yangqq.com/d/file/blogs/2018-07-10/094f20095d26875c98d3370f5c04e67e.png",
-        isTop: false,
-        subTitle: "前往 卜野个人博客，站长名字叫，卜野，这两个字很有意思，刚开始我以为是他的网名，哪知，看了他博客的“关于我”，才知“卜野”是真名。他的个人",
-        details: ``,
-    },
-    {
-        articleId: 9,
-        articleTitle: "安静地做一个爱设计的女子",
-        src: "http://www.yangqq.com/d/file/news/life/2018-06-17/917d732926d79cc2ae1012831ce51d1e.jpg",
-        isTop: false,
-        subTitle: "自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢",
-        details: ``,
-    },
-    {
-        articleId: 10,
-        articleTitle: "【匆匆那些年】总结个人博客经历的这四年",
-        src: "http://www.yangqq.com/d/file/jstt/bj/2018-06-29/3f0b6da48a6fd4e626a021ff7bd0d74f.jpg",
-        isTop: false,
-        subTitle: "博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，有执着过，也有放弃过&amp;hellip;但最后还是坚持了下来，时间如此匆匆，等再回过头",
-        details: ``,
-    },
-    {
-        articleId: 11,
-        articleTitle: "《寻之旅》一个关于旅游，游记的个人博客",
-        src: "http://www.yangqq.com/d/file/blogs/2018-05-27/a3f627dc6e35a53687da5e989491f16f.jpg",
-        isTop: false,
-        subTitle: "《寻之旅》www.searchtrip.cn 这是一个记录游记，旅游分享的个人博客，我们相识于3月份，一句“你可以先不要删我嘛”，还有海绵宝宝的头像，让我对他印象深刻。",
-        details: ``,
     },
     ]
 }
