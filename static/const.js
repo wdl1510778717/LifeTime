@@ -228,6 +228,10 @@ var baseData =
                 linkId: 1,
                 linkTitle: "我的其他相册",
                 href: "/photoOthers",
+            }, {
+                linkId: 2,
+                linkTitle: "我的视频",
+                href: "/video",
             }],
         },
         followMeModule: {
@@ -321,6 +325,7 @@ var baseData =
             },
         ],
         photoOthers: [],
+        video: [],
     }
 let leftBookData = baseData.photoBookModule.photoBookData.leftBookData;
 let allBookData = baseData.photoBookModule.photoBookData.allBookData;
