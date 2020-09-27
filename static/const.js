@@ -1,252 +1,256 @@
 //存储所有主数据的json
 import userAvatar from "./images/home/userAvatar.jpg"
 var baseData =
-// 为了简化数据结构，一个用户是一个对象，存储用户的所有数据
-{
-    userId: "0001", //唯一用户id
-    userNme: "", //用户姓名
-    userSex: "", //用户性别
-    logo: "三寸人间", //logo
-    nckName: "爱裸睡的猪🐖", //用户昵称
-    userAvatar: userAvatar, //用户头像
-    isNotPhotoClick: true, //左侧没有点击，没点是true，点了状态为false，
-    aboutDetils: "",
-    // aboutDetils: "人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人。斑驳的旧时光里，总有一些或深或浅沁人心肺的馨香，让人舍不得遗忘。阑珊的过往，不经意间邂逅了谁的眼眸；文字里泛舟，网络的尘缘里又与谁不期而遇？淡淡的墨香中，谁在翩然靠近？直抵心间的诗行，又是谁温暖了岁月？一切都是那么美、那么优雅、那么陶醉、那么质朴、那么精致。这不仅仅是文字的描摹，更是一种真诚的情感在绵延、在流动。光阴里，那些明媚或暗淡的曾经，总是伴着美丽的忧伤与成长的阵痛；日渐淡薄的往昔，也总能或多或少的在心里留下一丝清雅的执念。",
-    navItem: [
-        { name: "首页", url: "/home", min_modulePermission: true, max_modulePermission: true },
-        { name: "文章", url: "/article", min_modulePermission: false, max_modulePermission: true },
-        { name: "相册", url: "/photo", min_modulePermission: false, max_modulePermission: false },
-        // { name: "留言", url: "/message", min_modulePermission: false, max_modulePermission: true },
-        { name: "关于", url: "/about", min_modulePermission: false, max_modulePermission: true }
-    ],
-    aboutMeModule: {
-        moduleTitle: "关于",
-        modulePermission: true,
-        nckName: "爱裸睡的猪🐖",
-        userAvatar: userAvatar,
-        details: "我很懒，就想趴在床上，恐怕每一个年轻人现在都是这么想的，嘿嘿大家都懂！。工作久了发现，精神上的食粮，对于我们也很种重要，所以每天推荐几篇文章，陶冶一下情操。",
-    },
-    photoBookModule: {
-        moduleTitle: "相册",
-        modulePermission: true,
-        photoBookData: {
-            leftBookData: [],
-            allBookData: [{
-                modulePermission: true,
-                classPhotoBookId: 1,
-                bookData: [{
-                    photoBookId: 1,
-                    classPhotoBookId: 1,
-                    modulePermission: true,
-                    title: "美丽的植物园",
-                    desc: "亲近大自然，走进自然风光",
-                    photoId: "",
-                    backgroundImageName: "aboretum0007",
-                    imageSrc: "./static/images/aboretum/",
-                    router: "/photoDetails",
-                    data: [
-                        "aboretum0001",
-                        "aboretum0002",
-                        "aboretum0003",
-                        "aboretum0004",
-                        "aboretum0005",
-                        "aboretum0006",
-                        "aboretum0007",
-                        "aboretum0008",
-                        "aboretum0009",
-                        "aboretum0010",
-                        "aboretum0011",
-                        "aboretum0012",
-                        "aboretum0013",
-                        "aboretum0014",
-                        "aboretum0015",
-                        "aboretum0016",
-                        "aboretum0017",
-                        "aboretum0018",
-                        "aboretum0019",
-                        "aboretum0020",
-                        "aboretum0021",
-                        "aboretum0022",
-                        "aboretum0023",
-                        "aboretum0024",
-                        "aboretum0025",
-                        "aboretum0026",
-                        "aboretum0027",
-                        "aboretum0028",
-                        "aboretum0029",
-                        "aboretum0030",
-                        "aboretum0031",
-                        "aboretum0032",
-                        "aboretum0033",
-                        "aboretum0034",
-                        "aboretum0035",
-                        "aboretum0036",
-                        "aboretum0037",
-                        "aboretum0038",
-                        "aboretum0039",
-                        "aboretum0040",
-                        "aboretum0041",
-                        "aboretum0042",
-                        "aboretum0043",
-                        "aboretum0044",
-                        "aboretum0045",
-                        "aboretum0046",
-                        "aboretum0047",
-                        "aboretum0048",
-                        "aboretum0049",
-                        "aboretum0050",
-                    ],
-                },],
-            },
-            {
-                modulePermission: true,
-                classPhotoBookId: 2,
-                bookData: [{
-                    photoBookId: 1,
-                    classPhotoBookId: 2,
-                    modulePermission: true,
-                    title: "古风照片了解一下",
-                    desc: "是不是很漂亮，最丑的是我",
-                    photoId: "",
-                    backgroundImageName: "antiquity0013",
-                    imageSrc: "./static/images/antiquity/",
-                    router: "/photoDetails",
-                    data: [
-                        "antiquity0001",
-                        "antiquity0002",
-                        "antiquity0003",
-                        "antiquity0004",
-                        "antiquity0005",
-                        "antiquity0006",
-                        "antiquity0007",
-                        "antiquity0008",
-                        "antiquity0009",
-                        "antiquity0010"
-                    ],
-                },],
-            },
-            {
-                modulePermission: true,
-                classPhotoBookId: 3,
-                bookData: [{
-                    photoBookId: 1,
-                    classPhotoBookId: 3,
-                    modulePermission: true,
-                    title: "我的那个她",
-                    desc: "愿你永远18岁",
-                    photoId: "",
-                    backgroundImageName: "love0005",
-                    imageSrc: "./static/images/love/",
-                    router: "/photoDetails",
-                    data: [
-                        "love0001",
-                        "love0002",
-                        "love0003",
-                        "love0004",
-                        "love0005",
-                        "love0006",
-                        "love0007",
-                        "love0008",
-                        "love0009",
-                        "love0010"
-                    ],
-                },],
-            },
-            {
-                modulePermission: true,
-                classPhotoBookId: 4,
-                bookData: [{
-                    photoBookId: 1,
-                    classPhotoBookId: 4,
-                    modulePermission: true,
-                    title: "我的景物图片",
-                    desc: "随手拍一些景物留作纪念",
-                    photoId: "",
-                    backgroundImageName: "scenery0016",
-                    imageSrc: "./static/images/scenery/",
-                    router: "/photoDetails",
-                    data: [
-                        "scenery0001",
-                        "scenery0002",
-                        "scenery0003",
-                        "scenery0004",
-                        "scenery0005",
-                        "scenery0006",
-                        "scenery0007",
-                        "scenery0008",
-                        "scenery0009",
-                        "scenery0010",
-                        "scenery0011",
-                        "scenery0012",
-                        "scenery0013",
-                        "scenery0014",
-                        "scenery0015",
-                        "scenery0016",
-                        "scenery0017",
-                        "scenery0018",
-                        "scenery0019",
-                        "scenery0020",
-                        "scenery0021",
-                        "scenery0022",
-                        "scenery0023",
-                        "scenery0024"
-                    ]
-                },],
-            }
-            ],
+    // 为了简化数据结构，一个用户是一个对象，存储用户的所有数据
+    {
+        userId: "0001", //唯一用户id
+        userNme: "", //用户姓名
+        userSex: "", //用户性别
+        logo: "三寸人间", //logo
+        nckName: "爱裸睡的猪🐖", //用户昵称
+        userAvatar: userAvatar, //用户头像
+        isNotPhotoClick: true, //左侧没有点击，没点是true，点了状态为false，
+        aboutDetils: "",
+        // aboutDetils: "人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人。斑驳的旧时光里，总有一些或深或浅沁人心肺的馨香，让人舍不得遗忘。阑珊的过往，不经意间邂逅了谁的眼眸；文字里泛舟，网络的尘缘里又与谁不期而遇？淡淡的墨香中，谁在翩然靠近？直抵心间的诗行，又是谁温暖了岁月？一切都是那么美、那么优雅、那么陶醉、那么质朴、那么精致。这不仅仅是文字的描摹，更是一种真诚的情感在绵延、在流动。光阴里，那些明媚或暗淡的曾经，总是伴着美丽的忧伤与成长的阵痛；日渐淡薄的往昔，也总能或多或少的在心里留下一丝清雅的执念。",
+        navItem: [
+            { name: "首页", url: "/home", min_modulePermission: true, max_modulePermission: true },
+            { name: "文章", url: "/article", min_modulePermission: false, max_modulePermission: true },
+            { name: "相册", url: "/photo", min_modulePermission: false, max_modulePermission: false },
+            // { name: "留言", url: "/message", min_modulePermission: false, max_modulePermission: true },
+            { name: "关于", url: "/about", min_modulePermission: false, max_modulePermission: true }
+        ],
+        aboutMeModule: {
+            moduleTitle: "关于",
+            modulePermission: true,
+            nckName: "爱裸睡的猪🐖",
+            userAvatar: userAvatar,
+            details: "我很懒，就想趴在床上，恐怕每一个年轻人现在都是这么想的，嘿嘿大家都懂！。工作久了发现，精神上的食粮，对于我们也很种重要，所以每天推荐几篇文章，陶冶一下情操。",
+        },
+        photoBookModule: {
+            moduleTitle: "相册",
+            modulePermission: true,
+            photoBookData: {
+                leftBookData: [],
+                allBookData: [{
+                        modulePermission: true,
+                        classPhotoBookId: 1,
+                        bookData: [{
+                            photoBookId: 1,
+                            classPhotoBookId: 1,
+                            modulePermission: true,
+                            title: "美丽的植物园",
+                            desc: "亲近大自然，走进自然风光",
+                            photoId: "",
+                            backgroundImageName: "aboretum0007",
+                            imageSrc: "./static/images/aboretum/",
+                            router: "/photoDetails",
+                            data: [
+                                "aboretum0001",
+                                "aboretum0002",
+                                "aboretum0003",
+                                "aboretum0004",
+                                "aboretum0005",
+                                "aboretum0006",
+                                "aboretum0007",
+                                "aboretum0008",
+                                "aboretum0009",
+                                "aboretum0010",
+                                "aboretum0011",
+                                "aboretum0012",
+                                "aboretum0013",
+                                "aboretum0014",
+                                "aboretum0015",
+                                "aboretum0016",
+                                "aboretum0017",
+                                "aboretum0018",
+                                "aboretum0019",
+                                "aboretum0020",
+                                "aboretum0021",
+                                "aboretum0022",
+                                "aboretum0023",
+                                "aboretum0024",
+                                "aboretum0025",
+                                "aboretum0026",
+                                "aboretum0027",
+                                "aboretum0028",
+                                "aboretum0029",
+                                "aboretum0030",
+                                "aboretum0031",
+                                "aboretum0032",
+                                "aboretum0033",
+                                "aboretum0034",
+                                "aboretum0035",
+                                "aboretum0036",
+                                "aboretum0037",
+                                "aboretum0038",
+                                "aboretum0039",
+                                "aboretum0040",
+                                "aboretum0041",
+                                "aboretum0042",
+                                "aboretum0043",
+                                "aboretum0044",
+                                "aboretum0045",
+                                "aboretum0046",
+                                "aboretum0047",
+                                "aboretum0048",
+                                "aboretum0049",
+                                "aboretum0050",
+                            ],
+                        }, ],
+                    },
+                    {
+                        modulePermission: true,
+                        classPhotoBookId: 2,
+                        bookData: [{
+                            photoBookId: 1,
+                            classPhotoBookId: 2,
+                            modulePermission: true,
+                            title: "古风照片了解一下",
+                            desc: "是不是很漂亮，最丑的是我",
+                            photoId: "",
+                            backgroundImageName: "antiquity0013",
+                            imageSrc: "./static/images/antiquity/",
+                            router: "/photoDetails",
+                            data: [
+                                "antiquity0001",
+                                "antiquity0002",
+                                "antiquity0003",
+                                "antiquity0004",
+                                "antiquity0005",
+                                "antiquity0006",
+                                "antiquity0007",
+                                "antiquity0008",
+                                "antiquity0009",
+                                "antiquity0010"
+                            ],
+                        }, ],
+                    },
+                    {
+                        modulePermission: true,
+                        classPhotoBookId: 3,
+                        bookData: [{
+                            photoBookId: 1,
+                            classPhotoBookId: 3,
+                            modulePermission: true,
+                            title: "我的那个她",
+                            desc: "愿你永远18岁",
+                            photoId: "",
+                            backgroundImageName: "love0005",
+                            imageSrc: "./static/images/love/",
+                            router: "/photoDetails",
+                            data: [
+                                "love0001",
+                                "love0002",
+                                "love0003",
+                                "love0004",
+                                "love0005",
+                                "love0006",
+                                "love0007",
+                                "love0008",
+                                "love0009",
+                                "love0010"
+                            ],
+                        }, ],
+                    },
+                    {
+                        modulePermission: true,
+                        classPhotoBookId: 4,
+                        bookData: [{
+                            photoBookId: 1,
+                            classPhotoBookId: 4,
+                            modulePermission: true,
+                            title: "我的景物图片",
+                            desc: "随手拍一些景物留作纪念",
+                            photoId: "",
+                            backgroundImageName: "scenery0016",
+                            imageSrc: "./static/images/scenery/",
+                            router: "/photoDetails",
+                            data: [
+                                "scenery0001",
+                                "scenery0002",
+                                "scenery0003",
+                                "scenery0004",
+                                "scenery0005",
+                                "scenery0006",
+                                "scenery0007",
+                                "scenery0008",
+                                "scenery0009",
+                                "scenery0010",
+                                "scenery0011",
+                                "scenery0012",
+                                "scenery0013",
+                                "scenery0014",
+                                "scenery0015",
+                                "scenery0016",
+                                "scenery0017",
+                                "scenery0018",
+                                "scenery0019",
+                                "scenery0020",
+                                "scenery0021",
+                                "scenery0022",
+                                "scenery0023",
+                                "scenery0024"
+                            ]
+                        }, ],
+                    }
+                ],
 
+            },
         },
-    },
-    searchModule: {
-        moduleTitle: "搜索",
-        modulePermission: false,
-    },
-    classifyModule: {
-        moduleTitle: "分类",
-        modulePermission: true,
-        data: [{
-            classId: 1,
-            classTitle: "文章",
-            amount: 0,
+        searchModule: {
+            moduleTitle: "搜索",
+            modulePermission: false,
         },
-        {
-            classId: 2,
-            classTitle: "相册",
-            amount: 0,
+        classifyModule: {
+            moduleTitle: "分类",
+            modulePermission: true,
+            data: [{
+                    classId: 1,
+                    classTitle: "文章",
+                    amount: 0,
+                },
+                {
+                    classId: 2,
+                    classTitle: "相册",
+                    amount: 0,
+                },
+            ]
         },
-        ]
-    },
-    recommendModule: {
-        moduleTitle: "我的推荐",
-        modulePermission: true,
-        recommendData: []
-    },
-    linksModule: {
-        moduleTitle: "友情链接",
-        modulePermission: true,
-        data: [{
-            linkId: 1,
-            linkTitle: "杨青的个人博客",
-            href: "",
-        }],
-    },
-    followMeModule: {
-        moduleTitle: "关注我",
-        modulePermission: false,
-        data: [{
-            id: 1,
-            src: "./static/images/home/follow_me.jpg",
-        }],
-    },
-    articleData: [{
-        articleId: 1,
-        articleTitle: "我推荐的书",
-        src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
-        isTop: true,
-        subTitle: "推荐的书有些实在网上看到或者在知乎上看到的",
-        details: `
-            <p class='paragraph'>1、张爱玲：《倾城之恋》</p>
-            <p class='paragraph'>2、马格利特·杜拉斯：《情人》</p>
+        recommendModule: {
+            moduleTitle: "我的推荐",
+            modulePermission: true,
+            recommendData: []
+        },
+        linksModule: {
+            moduleTitle: "友情链接",
+            modulePermission: true,
+            data: [{
+                linkId: 1,
+                linkTitle: "我的其他相册",
+                href: "/photoOthers",
+            }, {
+                linkId: 2,
+                linkTitle: "我的视频",
+                href: "/video",
+            }],
+        },
+        followMeModule: {
+            moduleTitle: "关注我",
+            modulePermission: false,
+            data: [{
+                id: 1,
+                src: "./static/images/home/follow_me.jpg",
+            }],
+        },
+        articleData: [{
+                articleId: 1,
+                articleTitle: "我推荐的书",
+                src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
+                isTop: true,
+                subTitle: "我觉得，当书本给我讲到闻所未闻，见所未见的人物、感情、思想和态度时，似乎是每一本书都在我面前打开了一扇窗户，让我看到一个不可思议的新世界。——高尔基",
+                details: `
+            <p class='paragraph'>1、张爱玲：《倾城之恋》</p><br/>
+            <p class='paragraph'>2、马格利特·杜拉斯：《情人》</p><br/>
             <p class='paragraph'>3、考林·麦卡洛：《荆棘鸟》</p>
         　  <p class='paragraph'>4、村上春树：《挪威的森林》</p>
         　　<p class='paragraph'>5、渡边淳一：《失乐园》《男人这东西》</p>
@@ -281,14 +285,14 @@ var baseData =
         　　<p class='paragraph'>34、唤醒生命的人：海伦·凯勒《假如给我三天光明》</p>
         　　<p class='paragraph'>35、只有渺小的人物，没有渺小的爱情：西奥多·德莱塞《珍妮姑娘》</p>
         `,
-    },
-    {
-        articleId: 2,
-        articleTitle: "咖啡般的人生",
-        src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
-        isTop: true,
-        subTitle: "咖啡般的人生 - 精品咖啡散文",
-        details: `
+            },
+            {
+                articleId: 2,
+                articleTitle: "咖啡般的人生",
+                src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
+                isTop: true,
+                subTitle: "咖啡亦如人生，永远都是有苦有甜的，透着看不见的醇香、浓郁，在岁月中褪去张扬与浮华，只剩下温和的心与宽广的胸怀容纳它。",
+                details: `
         <p class='paragraph'>初秋的夜里，独自来到街角的咖啡屋，选择一个静谧的角落坐下，叫上一杯蓝山咖啡，慢慢品尝。无限想象的空间和一些寂寞，伴随着灯光，锁住了我游离的灵魂。</p>
         <p class='paragraph'>微微透着寒意的深夜，昏黄的光晕下，缭绕的香气弥漫着我的影子。轻轻地搅动着手里的咖啡勺，静静地观察咖啡的波纹丝丝旋转，越搅越醇，越品越浓。苦涩中透着丝滑的香气，像是一位轻盈的女子在翩翩起舞。</p>
         <p class='paragraph'>回忆是美好的，放任自己去找寻记忆的影子，就在这多情的夜里。我仿佛看见了自己一半明媚一半忧伤的踌躇。轻柔的音乐缓缓流淌，窗外皎洁明亮的月色，照亮了我纯净的心房。不加糖的咖啡里盛满了我不太完满的人生，我苦苦追寻的圆满在悲欢离合中一次次地破碎和迷失。想保存一份最初的纯真，却还是心碎地离开。</p>
@@ -296,14 +300,14 @@ var baseData =
         <p class='paragraph'>只是瞬间，回过神来，轻轻舔着唇上残留的香味，甘甜早已消失不见，弥留的只有尝不尽的酸涩。咖啡很香，却也很苦，咖啡一般的人生里有伤痛沉淀下来的痕迹。总想褪去骨子里的苦涩，人为地改变生活本色，却怎样也褪不去最初的味道。</p>
         <p class='paragraph'>沉淀，再沉淀，放弃浮躁的心，渐渐沉静下来。没有期待的醇香与甜美，只有忠于本色的对待。再轻轻啜饮一口，细细想来，咖啡亦如人生，永远都是有苦有甜的，透着看不见的醇香、浓郁，在岁月中褪去张扬与浮华，只剩下温和的心与宽广的胸怀容纳它。或许若干年后，会慢慢发觉：咖啡般的人生也如此香醇、静好。</p>
         `,
-    },
-    {
-        articleId: 3,
-        articleTitle: "在文字里开出有趣的灵魂",
-        src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
-        isTop: true,
-        subTitle: "文字也许是她吧",
-        details: `
+            },
+            {
+                articleId: 3,
+                articleTitle: "在文字里开出有趣的灵魂",
+                src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
+                isTop: true,
+                subTitle: "韶华虽易逝，心却还少年。人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人",
+                details: `
         <p class='paragraph'>人生清时有味，欢时有惜，倦时有依，唯文字可承载。</p>
         <p class='paragraph'>一个人爱上金钱物质很容易，但是爱上文字，却需要一个美妙的缘分。苏州的冬天到处都是清冷的空气，只有文字的微火，能让身心的每一个细胞慢慢温热起来，思维活跃起来。</p>
         <p class='paragraph'>我们在日常的生活之外，除了那些必然的责任；除了那些生计的忙碌；除了那些不得已而为之的琐碎。很多时候，必须要有一些精神与灵魂的共舞，让文字与心灵碰撞并深切地融合。将眸中心中的景许给流年，在和风送暖时；在花开静好时，在记忆流经血脉时……若缕缕暗香浮动。</p>
@@ -318,9 +322,11 @@ var baseData =
         <p class='paragraph'>与文字相伴的日子，绵密而妥帖，不被惊扰，恣意地享受着字中有诗，诗中有画的日子。在最适合自己的光阴里，不厌倦、不烦忧、不恼怒、不狂喜、不计较，只安然于那寂静的节奏。入我心者皆明月，入我诗者皆清风。生活与文字都是修行，用文字勾勒出宁静致远，让心更纯净更透明，爱我所爱。</p>
         <p class='paragraph'>一篇玲珑曼妙的文章，往往带给人一生无穷尽遐想，精神上也获得一笔不可估量的财富。真心善待文字的人，文字也让我们享受到一份不一样的人生境界。用平淡真挚的文字守候着内心这片深邃的海，人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人。今生遇见文字，便是时光与银发的相依。雅人深致，让别样的文字绽放出别样的烟火；让别样的文字见证别样的灵魂；让别样的文字与别样的光芒同频，在生命的肌理上，留下了一行特殊的印记，让岁月感知……</p>
         `,
-    },
-    ]
-}
+            },
+        ],
+        photoOthers: [],
+        video: [],
+    }
 let leftBookData = baseData.photoBookModule.photoBookData.leftBookData;
 let allBookData = baseData.photoBookModule.photoBookData.allBookData;
 let lenArry = [];
