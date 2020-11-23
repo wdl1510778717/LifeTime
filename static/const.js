@@ -352,7 +352,7 @@ var baseData =
     {
         articleId: 5,
         articleTitle: "这是一个东北老故事！",
-        src: picUrl + "article/devil.jpg",
+        src: picUrl + "article/oldNortheastStory.jpg",
         isTop: true,
         subTitle: "这是一个东北老故事！",
         details: `
