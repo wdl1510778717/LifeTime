@@ -1,2 +1,0 @@
-webpackJsonp([4],{"k63+":function(t,e){},"w/+t":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"iframe_box"},[e("vue-friendly-iframe",{attrs:{src:this.src},on:{load:this.onLoad}})],1)},staticRenderFns:[]};var i=n("VU/8")({data:function(){return{src:this.$route.query.link}},mounted:function(){},methods:{onLoad:function(){}}},r,!1,function(t){n("k63+")},"data-v-65ef6101",null);e.default=i.exports}});
-//# sourceMappingURL=4.6b9c9105636be79e2259.js.map
