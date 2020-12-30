@@ -446,6 +446,34 @@ var baseData =
             src: picUrl + "iframe/bilibili.jpg",
             link:"https://www.bilibili.com"
         },
+        {
+            modulePermission: true,
+            title: "QQ音乐",
+            desc: "QQ音乐",
+            src: picUrl + "iframe/qqmusic.jpg",
+            link:"https://y.qq.com"
+        },
+        {
+            modulePermission: true,
+            title: "网易云音乐",
+            desc: "网易云音乐",
+            src: picUrl + "iframe/kugou.png",
+            link:"https://www.kugou.com"
+        },
+        {
+            modulePermission: true,
+            title: "酷狗音乐",
+            desc: "酷狗音乐",
+            src: picUrl + "iframe/wycloud.jpg",
+            link:"https://music.163.com"
+        },
+        {
+            modulePermission: true,
+            title: "百度",
+            desc: "百度",
+            src: picUrl + "iframe/baidu.jpg",
+            link:"https://www.baidu.com"
+        },
     ],
 
 }
