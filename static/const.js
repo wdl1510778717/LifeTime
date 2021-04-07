@@ -221,7 +221,7 @@ var baseData =
                 },
                 {
                     classId: 2,
-                    classTitle: "相册",
+                    classTitle: "图片",
                     amount: 0,
                 },
             ]
