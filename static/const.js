@@ -474,6 +474,55 @@ var baseData =
                 src: picUrl + "iframe/baiduMap.jpg",
                 link: "https://m.amap.com"
             },
+            {
+                modulePermission: true,
+                title: "天空之城",
+                desc: "一个聚集了全球航拍爱好者、及专业摄像师们的平台。让你换个角度看世界！网站内的照片分为自然、城市、运动、人物等。每一张都很炫，让你欣赏到来自世界各地的风土人情！",
+                src: picUrl + "iframe/tiankongzhicheng.png",
+                link: "https://www.skypixel.com"
+            },
+            {
+                modulePermission: true,
+                title: "中华珍宝馆",
+                desc: "一个可以让你欣赏到超多古代、近现代高清字画的网站。不需要放大镜，仅用鼠标滚轮就可以看到字画中的细节！网站的主旨是“穷尽技术，只为让艺术更真实”。在这里，你能够更近距离地了解，感受中华文化！",
+                src: picUrl + "iframe/antique.jpg",
+                link: "http://www.ltfc.net"
+            },
+            {
+                modulePermission: true,
+                title: "濒临灭绝的动物拼图碎片",
+                desc: "濒临灭绝的动物拼图碎片",
+                src: picUrl + "iframe/animalPuzzle.png",
+                link: "https://www.webhek.com/misc-res/species-in-pieces/#"
+            },
+            {
+                modulePermission: true,
+                title: "Mikutap",
+                desc: "由日本一个音乐人制作的网站，敲击键盘字母A-Z，就会发出不同的声音，网站上也能够出现不同的图案。",
+                src: picUrl + "iframe/intrestingwww.gif",
+                link: "https://aidn.jp/mikutap"
+            },
+            {
+                modulePermission: true,
+                title: "FakeUpdate",
+                desc: "一个超级好玩的网站。",
+                src: picUrl + "iframe/joke.jpg",
+                link: "https://fakeupdate.net"
+            },
+            {
+                modulePermission: true,
+                title: "Any Knew",
+                desc: "AnyKnew - 效率资讯 -5分钟遍历全网热点",
+                src: picUrl + "iframe/anyNews.jpg",
+                link: "https://www.anyknew.com/#/"
+            },
+            {
+                modulePermission: true,
+                title: "彩虹屁",
+                desc: "一个超实用的网站，全是彩虹P。",
+                src: picUrl + "iframe/from_nmsl_hot.jpg",
+                link: "https://chp.shadiao.app/?from_nmsl_hot"
+            },
         ],
 
     }
