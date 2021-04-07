@@ -17,7 +17,7 @@ var baseData =
         // aboutDetils: "人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人。斑驳的旧时光里，总有一些或深或浅沁人心肺的馨香，让人舍不得遗忘。阑珊的过往，不经意间邂逅了谁的眼眸；文字里泛舟，网络的尘缘里又与谁不期而遇？淡淡的墨香中，谁在翩然靠近？直抵心间的诗行，又是谁温暖了岁月？一切都是那么美、那么优雅、那么陶醉、那么质朴、那么精致。这不仅仅是文字的描摹，更是一种真诚的情感在绵延、在流动。光阴里，那些明媚或暗淡的曾经，总是伴着美丽的忧伤与成长的阵痛；日渐淡薄的往昔，也总能或多或少的在心里留下一丝清雅的执念。",
         navItem: [
             { name: "首页", url: "/home", min_modulePermission: true, max_modulePermission: true },
-            { name: "文章", url: "/article", min_modulePermission: false, max_modulePermission: false },
+            // { name: "文章", url: "/article", min_modulePermission: false, max_modulePermission: true },
             { name: "相册", url: "/photo", min_modulePermission: false, max_modulePermission: false },
             { name: "脚印", url: "/footprint", min_modulePermission: false, max_modulePermission: false },
             { name: "收藏", url: "/collection", min_modulePermission: false, max_modulePermission: false },
