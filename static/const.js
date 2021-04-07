@@ -34,7 +34,6 @@ var baseData =
             moduleTitle: "相册",
             modulePermission: true,
             photoBookData: {
-                leftBookData: [],
                 allBookData: [{
                         modulePermission: true,
                         classPhotoBookId: 1,
@@ -210,12 +209,7 @@ var baseData =
                         }, ],
                     }
                 ],
-
             },
-        },
-        searchModule: {
-            moduleTitle: "搜索",
-            modulePermission: false,
         },
         classifyModule: {
             moduleTitle: "分类",
@@ -320,7 +314,7 @@ var baseData =
             {
                 articleId: 3,
                 articleTitle: "在文字里开出有趣的灵魂",
-                src: "http://www.yangqq.com/d/file/news/life/2018-04-27/762f99f369ae786f970477feeb3b9d77.jpg",
+                src: picUrl + "article/beautifulArticle.jpg",
                 isTop: true,
                 subTitle: "韶华虽易逝，心却还少年。人生易老难阻挡，且以文字约旧人。胸中若有诗书在，岁月从不败美人",
                 details: `
@@ -476,7 +470,6 @@ var baseData =
         ],
 
     }
-let leftBookData = baseData.photoBookModule.photoBookData.leftBookData;
 let allBookData = baseData.photoBookModule.photoBookData.allBookData;
 let lenArry = [];
 allBookData.forEach(book => {
@@ -490,18 +483,6 @@ lenArry.forEach(element => {
 });
 baseData.classifyModule.data[0].amount = baseData.articleData.length;
 baseData.classifyModule.data[1].amount = count;
-baseData.photoBookModule.photoBookData.leftBookData.push(
-    allBookData[0].bookData[0]
-)
-baseData.photoBookModule.photoBookData.leftBookData.push(
-    allBookData[1].bookData[0]
-)
-baseData.photoBookModule.photoBookData.leftBookData.push(
-    allBookData[2].bookData[0]
-)
-baseData.photoBookModule.photoBookData.leftBookData.push(
-    allBookData[3].bookData[0]
-)
 
 baseData.recommendModule.recommendData = baseData.articleData.slice(0, 6)
 
