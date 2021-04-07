@@ -467,6 +467,13 @@ var baseData =
                 src: picUrl + "iframe/baidu.jpg",
                 link: "https://www.baidu.com"
             },
+            {
+                modulePermission: true,
+                title: "高德地图",
+                desc: "高德地图",
+                src: picUrl + "iframe/baiduMap.jpg",
+                link: "https://m.amap.com"
+            },
         ],
 
     }
